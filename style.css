@@ -20,6 +20,6 @@ main {
   height: 500px;  
 }
 
-#nameLastname {  
+.inLine {
   display: flex;
-} 
+}
