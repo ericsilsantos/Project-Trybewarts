@@ -1,3 +1,10 @@
+main {  
+  display: flex;  
+}
+footer{
+  background-color: gray;
+  color: white;
+}
 .header{
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -5,11 +12,6 @@
 .trybewarts-login{
   display: flex;
 }
-
-main {  
-  display: flex;  
-}
-
 #evaluation-form {
   display: flex;
   width: 675px;
