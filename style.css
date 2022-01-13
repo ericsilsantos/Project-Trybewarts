@@ -1,17 +1,21 @@
-main {  
-  display: flex;  
+main {
+  display: flex;
 }
-footer{
+
+footer {
   background-color: gray;
   color: white;
 }
-.header{
+
+.header {
   display: flex;
   background-color: rgb(50, 167, 145);
 }
-.trybewarts-login{
+
+.trybewarts-login {
   display: flex;
 }
+
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -19,7 +23,7 @@ footer{
 }
 
 #trybewarts-forms-logo {
-  height: 500px;  
+  height: 500px;
 }
 
 .inLine {
