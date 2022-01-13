@@ -25,3 +25,16 @@ footer{
 .inLine {
   display: flex;
 }
+
+textarea {
+  resize: none;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.textarea p {
+  position: relative;
+  float: right;
+  margin-top: -25px;
+}
