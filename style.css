@@ -23,7 +23,6 @@ header img {
 
 .trybewarts-login {
   display: flex;
-  justify-content: flex-end;
 }
 
 #evaluation-form {
@@ -34,7 +33,6 @@ header img {
 
 #trybewarts-forms-logo {
   height: 500px;
-  margin-left: 10%;
 }
 
 .inLine {
@@ -55,6 +53,6 @@ textarea {
   margin-top: -25px;
 }
 
-#btn, #submit-btn {
+#btn , #submit-btn {
   border-radius: 5px;
 }
