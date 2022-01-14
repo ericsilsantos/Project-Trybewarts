@@ -1,5 +1,7 @@
 main {
   display: flex;
+  margin-top: 12px;
+  align-items: center;
 }
 
 footer {
@@ -7,13 +9,21 @@ footer {
   color: white;
 }
 
-.header {
+header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
 }
 
 .trybewarts-login {
   display: flex;
+  justify-content: flex-end;
 }
 
 #evaluation-form {
@@ -24,10 +34,12 @@ footer {
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin-left: 10%;
 }
 
 .inLine {
   display: flex;
+  margin-top: 2px;
 }
 
 textarea {
@@ -41,4 +53,8 @@ textarea {
   position: relative;
   float: right;
   margin-top: -25px;
+}
+
+#btn, #submit-btn {
+  border-radius: 5px;
 }
