@@ -30,7 +30,7 @@ keyBoardCheck.addEventListener('input', () => {
   counter.innerHTML = charDecrement;
 });
 // REQUISITO 21
-function selectedMaterials(){
+function selectedMaterials() {
   let materials=""
   const selected=document.querySelectorAll('.subject:checked')
   for(let index=0;index<selected.length; index++){
